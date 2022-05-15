@@ -1,7 +1,7 @@
 <script context="module">
-  import HeaderBar from '../components/UI/HeaderBar.svelte';
   import PostGrid from '../components/PostGrid.svelte';
   import { request, gql } from 'graphql-request';
+  import Highlight from '../components/Highlight.svelte';
 
   const endpoint = 'https://api-bridal.herokuapp.com/graphql';
 
@@ -33,6 +33,10 @@
   export let data;
 </script>
 
-<HeaderBar />
-
+<Highlight
+  title={data.posts[data.posts.length - 1].title}
+  description={data.posts[data.posts.length - 1].description}
+  imageUrl={data.posts[data.posts.length - 1].imageUrl}
+  post={data.posts[data.posts.length - 1].post}
+/>
 <PostGrid albums={data.posts} />
