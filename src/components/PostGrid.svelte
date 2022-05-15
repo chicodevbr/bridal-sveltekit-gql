@@ -25,6 +25,12 @@
   }
   @media (min-width: 768px) {
     section {
+      grid-template-columns: repeat(2, 2fr);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    section {
       grid-template-columns: repeat(3, 1fr);
     }
   }
