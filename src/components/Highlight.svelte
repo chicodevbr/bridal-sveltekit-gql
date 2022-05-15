@@ -56,8 +56,8 @@
     padding: 50px 20px;
   }
   .text-container {
-    padding-left: 1rem;
     width: 500px;
+    padding: 2rem;
   }
   .text-container p {
     width: 400px;
@@ -71,11 +71,12 @@
     margin-bottom: 1rem;
   }
 
-  .text-container p h3 {
+  .text-container p,
+  h3 {
     font-family: 'Muli';
   }
   .image {
-    width: 40%;
+    width: 60%;
   }
   .image img {
     width: 100%;
