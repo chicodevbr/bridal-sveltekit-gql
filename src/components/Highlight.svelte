@@ -19,6 +19,28 @@
 </section>
 
 <style>
+  @font-face {
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/playfairdisplaysc/v15/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbkMEOE1I4o.woff2)
+      format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+      U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/muli/v27/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30e6fwniDtzM.woff)
+      format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+      U+2215, U+FEFF, U+FFFD;
+  }
   .grid-container {
     width: 100%;
     box-sizing: border-box;
@@ -47,6 +69,10 @@
     line-height: 1;
     font-weight: 400;
     margin-bottom: 1rem;
+  }
+
+  .text-container p h3 {
+    font-family: 'Muli';
   }
   .image {
     width: 40%;
