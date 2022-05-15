@@ -1,6 +1,6 @@
 <header>
   <nav id="nav">
-    <a class="logo" href="#">Bridal</a>
+    <a class="logo" href="/">Bridal</a>
     <ul>
       <li><a href="/">Weddings</a></li>
       <li><a href="/">More Events</a></li>
