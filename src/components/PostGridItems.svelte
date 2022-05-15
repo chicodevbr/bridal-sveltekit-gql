@@ -30,7 +30,7 @@
     padding: 50px 20px;
     text-align: center;
     max-width: 100%;
-    width: 450px;
+    width: 350px;
   }
   .image {
     width: 100%;
